@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0BD4BF9F28AA32FE008ED92E /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD4BF9E28AA32FE008ED92E /* StringExtensions.swift */; };
+		6E7A3BC8292E5C28005CED1F /* CheckoutEventLoggerKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CBFF38642837D76A002B0501 /* CheckoutEventLoggerKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9552EAEC28855AAE00E9ECD9 /* CardSchemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9552EAEB28855AAE00E9ECD9 /* CardSchemeTests.swift */; };
 		CB05A93927748FA10086DDA0 /* NSRegularExpression+initStaticPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB05A8F927748FA10086DDA0 /* NSRegularExpression+initStaticPattern.swift */; };
 		CB05A93A27748FA10086DDA0 /* URL+initStaticString.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB05A8FA27748FA10086DDA0 /* URL+initStaticString.swift */; };
@@ -142,7 +143,6 @@
 		CBE83F0727C3D960006F5701 /* StubThreeDSWKNavigationHelperDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE83F0627C3D960006F5701 /* StubThreeDSWKNavigationHelperDelegate.swift */; };
 		CBE83F0927C3DB2B006F5701 /* StubWKNavigationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE83F0827C3DB2B006F5701 /* StubWKNavigationAction.swift */; };
 		CBFF38652837D76A002B0501 /* CheckoutEventLoggerKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFF38642837D76A002B0501 /* CheckoutEventLoggerKit.xcframework */; };
-		CBFF38662837D76A002B0501 /* CheckoutEventLoggerKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CBFF38642837D76A002B0501 /* CheckoutEventLoggerKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F5974E48276CB4480033D29D /* ButtonsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5974E37276CB4480033D29D /* ButtonsTableViewCell.swift */; };
 		F5974E49276CB4480033D29D /* ButtonsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5974E38276CB4480033D29D /* ButtonsTableViewCell.xib */; };
 		F5974E4A276CB4480033D29D /* CardTokenizationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5974E39276CB4480033D29D /* CardTokenizationViewController.xib */; };
@@ -205,18 +205,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				6E7A3BC8292E5C28005CED1F /* CheckoutEventLoggerKit.xcframework in Embed Frameworks */,
 				CBCE3722271EC61400371FE7 /* Checkout.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CBFF38672837D76A002B0501 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				CBFF38662837D76A002B0501 /* CheckoutEventLoggerKit.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -958,7 +948,6 @@
 				CBCE3717271EC61400371FE7 /* Sources */,
 				CBCE3718271EC61400371FE7 /* Frameworks */,
 				CBCE3719271EC61400371FE7 /* Resources */,
-				CBFF38672837D76A002B0501 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
